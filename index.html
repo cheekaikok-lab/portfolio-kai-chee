@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kok_KaiChee — Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80" tabindex="0">
+
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top bg-body border-bottom">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#intro"><img src="./images/KC Logo.png" alt="KC logo icon" height="50"> KC's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#intro">Introduction</a></li>
+          <li class="nav-item"><a class="nav-link" href="#details">Personal Details</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#soft-skills">Personal Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+          <li class="nav-item"><a class="nav-link" href="#activities">Projects</a></li>
+        </ul>
+        <div class="d-flex align-items-center ms-lg-3 gap-2">
+          <button class="btn btn-outline-primary btn-sm theme-toggle" id="themeToggle" title="Toggle theme">
+            <i class="bi bi-brightness-high"></i>
+          </button>
+          <button class="btn btn-primary btn-sm" onclick="window.print()" title="Print / Save PDF">
+            <i class="bi bi-printer me-1"></i> Print
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero / Introduction -->
+  <header id="intro" class="py-5 mt-5 hero-bg border-bottom">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-md-3 text-center text-md-start">
+          <img class="avatar" src="./images/IMG_0012.JPG" alt="Profile photo">
+        </div>
+        <div class="col-md-9">
+          <h1 class="fw-bold mb-2">Kok Kai Chee</h1>
+          <p class="lead text-light mb-3 fw-bold">Data Services Squad (Intern) — Exploring AI, technology, and data to transform insight into impact.</p>
+          <div class="d-flex flex-wrap gap-2 mb-3">
+            <span class="badge rounded-pill bg-primary-subtle text-primary">Automation</span>
+            <span class="badge rounded-pill bg-primary-subtle text-primary">Generative AI</span>
+            <span class="badge rounded-pill bg-primary-subtle text-primary">AWS Cloud Solution</span>
+            <span class="badge rounded-pill bg-primary-subtle text-primary">Data Science</span>
+            <span class="badge rounded-pill bg-primary-subtle text-primary">Full-Stack Developer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Personal Details -->
+  <section id="details" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-4">Personal Details</h2>
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <div class="row row-cols-1 row-cols-md-2 g-3">
+                <div>
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="bi bi-person-circle text-primary"></i>
+                    <div><small class="text-muted">Name</small><div class="fw-semibold">Kok Kai Chee (Kelvin)</div></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="bi bi-briefcase text-primary"></i>
+                    <div><small class="text-muted">Current Role</small><div class="fw-semibold">Intern, Data Services Squad</div></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="bi bi-envelope-open text-primary"></i>
+                    <div><small class="text-muted">Email</small><div class="fw-semibold"><a href="mailto:your.email@example.com">cheekaikok@gmail.com</a></div></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="bi bi-telephone text-primary"></i>
+                    <div><small class="text-muted">Phone</small><div class="fw-semibold">(+60) 16 829 8829</div></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="bi bi-globe2 text-primary"></i>
+                    <div><small class="text-muted">Website</small><div class="fw-semibold"><a href="https://cheekaikok-lab.github.io/portfolio-kai-chee/" target="_blank">Kelvin's Portfolio</a></div></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="bi bi-linkedin text-primary"></i>
+                    <div><small class="text-muted">LinkedIn</small><div class="fw-semibold"><a href="https://www.linkedin.com/in/kok-kai-chee-26b367258/" target="_blank">www.linkedin.com/in/kok-kai-chee</a></div></div>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <p class="mb-0" style="text-align: justify;">
+                I’m a AI‑driven Business Analyst with a strong passion for solving problems through data, automation, and practical innovation.
+                At Jabil, I work across computer vision, GenAI, API testing, and requirement analysis—bridging users, product teams, and engineering to deliver solutions that are both high‑quality and meaningful.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title">Know more about ME!</h5>
+              <div class="d-grid gap-2">
+                <a class="btn btn-outline-primary" href="Kok Kai Chee CV Resume.pdf" download="Kelvin_resume.pdf">
+                  <i class="bi bi-file-earmark-arrow-down me-1"></i> Download My Resume (PDF)
+                </a>
+                <a class="btn btn-outline-secondary" href="mailto:cheekaikok@gmail.com?subject=Interview%20Opportunity">
+                  <i class="bi bi-send me-1"></i> Email Me
+                </a>
+                <a class="btn btn-outline-secondary" href="#intro">
+                  <i class="bi bi-arrow-up-circle me-1"></i> Back to Top
+                </a>
+              </div>
+              <div class="mt-3 small text-muted">
+                “If you no show, I no show, then who’s reacting, ah?” 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-5 bg-body-secondary">
+    <div class="container">
+      <h2 class="section-title mb-4">Skills</h2>
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Technical Skills</h5>
+
+              <!-- Progress bars -->
+              <div class="mb-3">
+                <div class="d-flex justify-content-between"><span>Python & C++</span><small class="text-muted">Intermediate</small></div>
+                <div class="progress" role="progressbar" aria-label="JS proficiency"><div class="progress-bar bg-primary" style="width: 75%"></div></div>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between"><span>Power BI, Tableau & SQL</span><small class="text-muted">Advanced</small></div>
+                <div class="progress"><div class="progress-bar bg-success" style="width: 80%"></div></div>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between"><span>Machine Learning</span><small class="text-muted">Advanced</small></div>
+                <div class="progress"><div class="progress-bar bg-info" style="width: 80%"></div></div>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between"><span>MS Office</span><small class="text-muted">Advanced</small></div>
+                <div class="progress"><div class="progress-bar bg-warning" style="width: 80%"></div></div>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between"><span>Prompt Engineering</span><small class="text-muted">Intermediate</small></div>
+                <div class="progress"><div class="progress-bar bg-danger" style="width: 75%"></div></div>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between"><span>Project Management</span><small class="text-muted">Advanced</small></div>
+                <div class="progress"><div class="progress-bar bg-primary" style="width: 85%"></div></div>
+              </div>
+
+              <!-- Tech stack pills -->
+              <div class="mt-3">
+                <span class="skill-pill"><i class="bi bi-box"></i>API Testing </span>
+                <span class="skill-pill"><i class="bi bi-cloud-arrow-up"></i>AWS Cloud</span>
+                <span class="skill-pill"><i class="bi bi-shield-check"></i>Dataiku</span>
+                <span class="skill-pill"><i class="bi bi-git"></i>Computer Vision Software Validation</span>
+                <span class="skill-pill"><i class="bi bi-window"></i>Bootstrap</span>
+                <span class="skill-pill"><i class="bi bi-braces"></i>GenAI Tools</span>
+                <span class="skill-pill"><i class="bi bi-braces"></i>IBM SPSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Personal (Soft) Skills -->
+        <div class="col-lg-6" id="soft-skills">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Personal Skills</h5>
+              <div class="row row-cols-1 row-cols-md-2 g-3">
+                <div class="d-flex align-items-center justify-content-between p-2 border rounded">
+                  <span><i class="bi bi-chat-dots me-1"></i> Analytical Thinking</span>
+                  <span class="text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                </div><div class="d-flex align-items-center justify-content-between p-2 border rounded">
+                  <span><i class="bi bi-chat-dots me-1"></i>Project Management</span>
+                  <span class="text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between p-2 border rounded">
+                  <span><i class="bi bi-people me-1"></i> Team Collaboration</span>
+                  <span class="text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between p-2 border rounded">
+                  <span><i class="bi bi-lightbulb me-1"></i> Problem Solving</span>
+                  <span class="text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between p-2 border rounded">
+                  <span><i class="bi bi-clock me-1"></i> Time Management</span>
+                  <span class="text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between p-2 border rounded">
+                  <span><i class="bi bi-chat-dots me-1"></i> Communication</span>
+                  <span class="text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                </div>
+              </div>
+              <div class="mt-3">
+                <span class="badge rounded-pill badge-soft">Ownership</span>
+                <span class="badge rounded-pill badge-soft">Adaptability</span>
+                <span class="badge rounded-pill badge-soft">Attention to Detail</span>
+                <span class="badge rounded-pill badge-soft">Growth Mindset</span>
+                <span class="badge rounded-pill badge-soft">Quick Learner</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- row -->
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-4">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">Bachelor of Management (Data Analytics)</h5>
+          </div>
+          <div class="text-muted">University Sains Malaysia (USM) • CGPA: 3.6 / 4.0</div>
+          <div class="text-muted">2022 – 2026</div>
+          <ul class="mt-2 mb-0">
+            <li>Minor in Computer Science</li>
+            <li>6 Dean List's Awards</li>
+            <li>Relevant courses: Programming Languages, Data Structures, Machine Learning, Power BI, SQL.</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">Pre‑University</h5>
+          </div>
+          <div class="text-muted">Kota Kinabalu High School • CGPA: 4.0 / 4.0</div>
+          <div class="text-muted">2020 - 2022</div>
+          <ul class="mt-2 mb-0">
+            <li>1 President's List Awards</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-5 bg-body-secondary">
+    <div class="container">
+      <h2 class="section-title mb-4">Working Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">Software Quality Assurance / Business Analyst Intern — Jabil Sdn. Bhd.</h5>
+          </div>
+          <div class="text-muted">August 2025 – Present</div>
+          <div class="text-muted">Tech: MS Office, Python, Copilot, AWS, API, Full-Stack</div>
+          <ul class="mt-2 mb-0">
+            <li>Performed end‐to‐end test case validation for AI Vision software, covering public API testing, OCR/barcode verification.</li>
+            <li>Supported feasibility testing, stakeholder requirements gathering, and quality validation in GenAI solutions.</li>
+            <li>Contributed to 3 GenAI projects (prompt engineering in Copilot, documentation, KT with North Asia/China DSS).</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">Social Media Data & Content Specialist (Part-Time) — CeritaManik / GDGN Vintage Cuisine</h5>
+          </div>
+          <div class="text-muted">August 2025 – Present</div>
+          <div class="text-muted">Tech: MS Office, Pixlr X, Notion AI, Illustrator, CapCut</div>
+          <ul class="mt-2 mb-0">
+            <li>Content generation and managed multi‐channel publishing schedules.</li>
+            <li>Analyzed audience behavior, campaign performance, and platform algorithm signals to refine content strategy for measurable growth.</li>
+            <li>Collaborated on data‐driven storytelling aligned to marketing goals; helped increase brand revenue and popularity via improved content mix and reporting.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">Online Gadget Seller — Self‐employed</h5>
+          </div>
+          <div class="text-muted">2021 – 2025</div>
+          <div class="text-muted">Tech: Excel, Social Media Marketplace</div>
+          <ul class="mt-2 mb-0">
+            <li>Managed end‐to‐end sales of secondhand/new electronic gadgets on Facebook Marketplace.</li>
+            <li>Analyzed market trends to optimize pricing and improve salesperformance.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-4">Achievements</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title"><img src="./images/AWS badge.jpeg" alt="AWS badge icon" height="40"> AWS Certified Cloud Practitioner</h5>
+              <p class="card-text">A foundational certification that validates knowledge of AWS Cloud concepts, security, architecture, billing, and core services</p>
+              <span class="badge bg-info-subtle text-info">Cloud Conputing</span> <span class="badge bg-info-subtle text-info">Database</span> <span class="badge bg-info-subtle text-info">Security</span> <span class="badge bg-info-subtle text-info">Solution Architect</span>
+            </div>
+            <div class="d-flex gap-2">
+              <a class="btn btn-sm btn-outline-secondary" href="./Achievement/AWS Certified Cloud Practitioner certificate.pdf" download="AWS Certified Cloud Practitioner.pdf">
+                <i class="bi bi-file-earmark-arrow-down me-1"></i> Download Certificate (PDF)
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title"><img src="./images/Dataiku.png" alt="AWS badge icon" height="40"> Dataiku Certification</h5>
+              <p class="card-text">Demonstrating end‑to‑end capability in data preparation, advanced workflow design, and machine learning model development within Dataiku.</p>
+              <span class="badge bg-info-subtle text-info">Core Designer</span> <span class="badge bg-info-subtle text-info">Advanced Designer</span> <span class="badge bg-info-subtle text-info">ML Practitioner</span>
+            </div>
+            <div class="d-flex gap-2">
+              <a class="btn btn-sm btn-outline-secondary" href="./Achievement/Dataiku Certification.zip" download="Dataiku certification.zip">
+                <i class="bi bi-file-earmark-arrow-down me-1"></i> Download Certificate (.zip)
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title"><i class="bi bi-award text-primary me-1"></i> Dean’s List</h5>
+              <p class="card-text">Recognized for academic excellence over multiple semesters.</p>
+              <span class="badge bg-info-subtle text-info">2023</span> <span class="badge bg-info-subtle text-info">2024</span> <span class="badge bg-info-subtle text-info">2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between mb-3">
+        <h2 class="section-title mb-0">Projects</h2>
+
+        <!-- Category filters -->
+        <div class="btn-group" role="group" aria-label="Project filters">
+          <button type="button" class="btn btn-outline-secondary btn-sm active" data-filter="all">
+            All
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-sm" data-filter="web">
+            Web
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-sm" data-filter="data">
+            Data / BI
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-sm" data-filter="ai">
+            AI / ML
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-sm" data-filter="acedemic">
+            Acedemic
+          </button>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="projectGrid">
+
+        <!-- Project card -->
+        <div class="col project-card" data-category="ai">
+          <div class="card shadow-sm h-100">
+            <!-- 16:9 image; replace with your asset -->
+            <img class="card-img-top" src="./images/ML FYP.png" alt="ML FYP">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">FYP - Applied Business Analytics Project</h5>
+              <p class="card-text flex-grow-1">
+                A Performance Comparison of Supervised Learning Models for Customer Response Prediction in Direct Marketing.
+              </p>
+              <div class="mb-3">
+                <span class="badge badge-tech">Supervised Machine Learning</span>
+                <span class="badge badge-tech">Dashboard</span>
+                <span class="badge badge-tech">Decision Making</span>
+                <span class="badge badge-tech">Prediction</span>
+              </div>
+              <div class="d-flex gap-2">
+                <!-- Live demo -->
+                <a class="btn btn-sm btn-primary" href="./projects/AAW318_161136_Kok Kai Chee.pdf" download="Kelvin_FYP.pdf">
+                  <i class="bi bi-file-earmark-arrow-down me-1"></i> Download My FYP (PDF)
+                </a>
+                <!-- Modal -->
+                <button class="btn btn-sm btn-gradient ms-auto" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project card -->
+        <div class="col project-card" data-category="ai">
+          <div class="card shadow-sm h-100">
+            <img class="card-img-top" src="./images/Copilot.jpg" alt="copilot">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">OCR and TIMG system automation</h5>
+              <p class="card-text flex-grow-1">
+                Join extracted data from OCR to system ready data, automate process workflow to improve efficiency.
+              </p>
+              <div class="mb-3">
+                <span class="badge badge-tech">Copilot</span>
+                <span class="badge badge-tech">Prompt Engineering</span>
+                <span class="badge badge-tech">Agent</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project card -->
+        <div class="col project-card" data-category="ai">
+          <div class="card shadow-sm h-100">
+            <img class="card-img-top" src="./images/Copilot.jpg" alt="copilot">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Report and Document Consolidation</h5>
+              <p class="card-text flex-grow-1">
+                Extract data from completed report, structuring, formatting and consolidating information into a single Excel.
+              </p>
+              <div class="mb-3">
+                <span class="badge badge-tech">Copilot</span>
+                <span class="badge badge-tech">Prompt Engineering</span>
+                <span class="badge badge-tech">Agent</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project card -->
+        <div class="col project-card" data-category="ai">
+          <div class="card shadow-sm h-100">
+            <img class="card-img-top" src="./images/Copilot.jpg" alt="copilot">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Automate Slide Generation</h5>
+              <p class="card-text flex-grow-1">
+                Automate PowerPoint generation with simple input (image/text)
+              </p>
+              <div class="mb-3">
+                <span class="badge badge-tech">Copilot</span>
+                <span class="badge badge-tech">Prompt Engineering</span>
+                <span class="badge badge-tech">Agent</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project card -->
+        <div class="col project-card" data-category="web">
+          <div class="card shadow-sm h-100">
+            <img class="card-img-top" src="./images/TinDog.png" alt="TinDog">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">TinDog Capstone Project</h5>
+              <p class="card-text flex-grow-1">
+                A simple capstone project to create a dog dating application. 
+              </p>
+              <div class="mb-3">
+                <span class="badge badge-tech">Full-Stack</span>
+                <span class="badge badge-tech">Website</span>
+                <span class="badge badge-tech">HTML</span>
+                <span class="badge badge-tech">JavaScript</span>
+                <span class="badge badge-tech">CSS</span>
+              </div>
+              <div class="d-flex gap-2">
+                <a class="btn btn-sm btn-primary" href="https://cheekaikok-lab.github.io/Tindog/" target="_blank" rel="noopener">
+                    <i class="bi bi-github me-1"></i> Live
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project card -->
+        <div class="col project-card" data-category="acedemic">
+          <div class="card shadow-sm h-100">
+            <img class="card-img-top" src="./images/CNY.jpg" alt="CNY Dinner project">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Cultural Night 2024</h5>
+              <p class="card-text flex-grow-1">
+                A Chinese New Year dedicated to those unable to return home, with funds raised to support those in need.
+              </p>
+              <div class="mb-3">
+                <span class="badge badge-tech">Project Management</span>
+                <span class="badge badge-tech">Leadership</span>
+                <span class="badge badge-tech">Sponsorship</span>
+              </div>
+              <div class="d-flex gap-2">
+                <a class="btn btn-sm btn-primary" href="./projects/Cultural Night 2024.pdf" download="Cultural Night 2024.pdf">
+                  <i class="bi bi-file-earmark-arrow-down me-1"></i> Download Image (PDF)
+                </a>
+                <button class="btn btn-sm btn-gradient ms-auto" data-bs-toggle="modal" data-bs-target="#project2Modal">
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more cards as needed (web/data/ai/mobile) -->
+      </div>
+    </div>
+
+    <!-- Modals (one per project; optional) -->
+    <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 id="project1Label" class="modal-title">Applied Business Analytics Project - details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <ul class="mb-0">
+              <li>Role: Data Analyst project</li>
+              <li>Highlights: To compare the performance of different supervised learning model.</li>
+              <li>Tech: JupiterNotebook, Kaggle</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-outline-secondary" href="https://github.com/your-handle/inventory-manager" target="_blank" rel="noopener">
+              <i class="bi bi-github me-1"></i> View Code
+            </a>
+            <a class="btn btn-primary" href="https://example.com/inventory" target="_blank" rel="noopener">
+              <i class="bi bi-box-arrow-up-right me-1"></i> Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2Label" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 id="project2Label" class="modal-title">Cultural Night 2024 — Details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <ul class="mb-0">
+              <li>Role: Project Director</li>
+              <li>Successfully collect RM20000 through fund raising</li>
+              <li>Sponsor by ahli parlimen and local government</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-outline-secondary" href="https://github.com/your-handle/sales-bi" target="_blank" rel="noopener">
+              <i class="bi bi-github me-1"></i> View Code
+            </a>
+            <a class="btn btn-primary" href="https://example.com/sales-bi" target="_blank" rel="noopener">
+              <i class="bi bi-box-arrow-up-right me-1"></i> Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 border-top">
+    <div class="container text-center">
+      <div class="mb-2">
+        <a class="btn btn-outline-secondary btn-sm me-1" href="mailto:your.email@example.com"><i class="bi bi-envelope"></i></a>
+        <a class="btn btn-outline-secondary btn-sm me-1" href="https://www.linkedin.com/in/your-handle" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a class="btn btn-outline-secondary btn-sm" href="https://github.com/cheekaikok-lab" target="_blank"><i class="bi bi-github"></i></a>
+      </div>
+      <small class="text-muted">© <span id="year"></span> KaiChee Kok. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Enable ScrollSpy
+    const dataSpyList = document.querySelectorAll('[data-bs-spy="scroll"]')
+    dataSpyList.forEach(el => bootstrap.ScrollSpy.getInstance(el) || new bootstrap.ScrollSpy(el))
+
+    // Year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Theme toggle (light/dark)
+    const themeToggle = document.getElementById('themeToggle');
+    themeToggle.addEventListener('click', () => {
+      const html = document.documentElement;
+      const isLight = html.getAttribute('data-bs-theme') !== 'dark';
+      html.setAttribute('data-bs-theme', isLight ? 'dark' : 'light');
+      themeToggle.innerHTML = isLight ? '<i class="bi bi-moon-stars"></i>' : '<i class="bi bi-brightness-high"></i>';
+    });
+    // Project filters (All/Web/Data/AI/Mobile)
+      (function() {
+        const filterButtons = document.querySelectorAll('[data-filter]');
+        const cards = document.querySelectorAll('#projectGrid .project-card');
+
+        filterButtons.forEach(btn => {
+          btn.addEventListener('click', () => {
+            // set active button
+            filterButtons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            const filter = btn.getAttribute('data-filter');
+            cards.forEach(card => {
+              const cat = card.getAttribute('data-category');
+              const show = (filter === 'all') || (cat === filter);
+              card.classList.toggle('d-none', !show);
+            });
+          });
+        });
+      })();
+  </script>
+</body>
+</html>
+``
